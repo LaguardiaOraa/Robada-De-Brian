@@ -280,7 +280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4219508675328494435}
   - component: {fileID: 2086162924156473097}
-  - component: {fileID: 3028705420515778809}
+  - component: {fileID: 6603394038415266692}
   m_Layer: 0
   m_Name: img
   m_TagString: Untagged
@@ -315,7 +315,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6093919381991822084}
   m_CullTransparentMesh: 1
---- !u!114 &3028705420515778809
+--- !u!114 &6603394038415266692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6093919381991822084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -335,16 +335,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 0}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &6508413681008010144
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +354,7 @@ GameObject:
   - component: {fileID: 8733757487307501004}
   - component: {fileID: 7103767444195088129}
   - component: {fileID: 4252308639479646156}
+  - component: {fileID: 7581866990303058990}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -480,3 +478,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7581866990303058990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6508413681008010144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a99f525f15eb1469ccf71abf5445a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sueloSombra: {fileID: 0}

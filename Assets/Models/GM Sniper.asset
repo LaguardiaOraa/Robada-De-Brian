@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GM Sniper
   m_EditorClassIdentifier: 
   ItemName: GM Sniper
-  ItemImage: {fileID: 0}
+  ItemImage: {fileID: 21300000, guid: 02603386a52f92240a0e281c6bdecf53, type: 3}
   ItemDescripcion: Es un GM Sniper custom
   Item3DModel: {fileID: 1585916047264885416, guid: 293fec117bdfe9047a4664b3b72b9f46,
     type: 3}
