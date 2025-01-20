@@ -61,10 +61,46 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8fbdf2f4a32a2774a905fb03e15c34b4,
         type: 3}
       propertyPath: m_Name
-      value: "\u30B8\u30E0\u30B9\u30CA\u30A4\u30D1\u30FC\u30AB\u30B9\u30BF\u30E0(2024-10-07)"
+      value: GM Sniper
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8fbdf2f4a32a2774a905fb03e15c34b4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8fbdf2f4a32a2774a905fb03e15c34b4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2654079208530835302}
   m_SourcePrefab: {fileID: 100100000, guid: 8fbdf2f4a32a2774a905fb03e15c34b4, type: 3}
+--- !u!1 &1585916047264885416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8fbdf2f4a32a2774a905fb03e15c34b4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1928428977003534329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2654079208530835302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585916047264885416}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.8486757, y: 10.685486, z: 3.0055742}
+  m_Center: {x: 0.4141295, y: 5.025095, z: -0.0000005951669}

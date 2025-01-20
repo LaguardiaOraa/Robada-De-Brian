@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b63f9c514683274187e4286ac331f2b,
         type: 3}
       propertyPath: m_Name
-      value: "\u30AA\u30EA\u30B8\u30F3\u30AC\u30F3\u30C0\u30E0(2023-03-20)\u53EF\u52D5\u7248"
+      value: Gundam
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b63f9c514683274187e4286ac331f2b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

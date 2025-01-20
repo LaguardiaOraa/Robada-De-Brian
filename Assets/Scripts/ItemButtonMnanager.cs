@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 
 public class ItemButtonMnanager : MonoBehaviour
@@ -13,7 +11,7 @@ public class ItemButtonMnanager : MonoBehaviour
     private GameObject Item3DModel;
     [SerializeField] private GameObject sueloSombra;
     private GameObject sueloSombraEscena;
-    private ArInteractiveManager arInteractiveManager;
+    private ArInteractionManager arInteractiveManager;
 
     public string ItemName1 { get => ItemName; set => ItemName = value; }
     public Sprite ItemImage1 { get => ItemImage; set => ItemImage = value; }
@@ -29,17 +27,17 @@ public class ItemButtonMnanager : MonoBehaviour
         var button = GetComponent<Button>();
         button.onClick.AddListener(GameManager.manager.ARPosition);
         button.onClick.AddListener(Create3DModel);
-        arInteractiveManager = FindObjectOfType<ArInteractiveManager>();
+        arInteractiveManager = FindObjectOfType<ArInteractionManager>();
     }
 
-    private void Create3DModel() 
+    private void Create3DModel()
     {
-        sueloSombraEscena = GameObject.FindGameObjectWithTag("suelo");
-        if(sueloSombraEscena == null) 
+        sueloSombraEscena = GameObject.FindGameObjectWithTag("Suelo");
+        if (sueloSombraEscena == null)
         {
-            //ArInteractiveManager.SueloSombra = Instantiate(sueloSombra);
+            arInteractiveManager.SueloSombra = Instantiate(sueloSombra);
             sueloSombra.SetActive(true);
         }
-        //ArInteractiveManager.Item3DModel = Instantiate(Item3DModel1);
+        arInteractiveManager.Item3DModel = Instantiate(Item3DModel1);
     }
 }
